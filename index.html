@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>       
+    <header>
+        <h1>Background Remover</h1>
+        <nav>
+          <ul>  
+            <li class="dropdown">
+                <a href="#">API &amp; Tools</a>
+                <div class="dropdown-content">
+                  <a href="#">API Documentation</a>
+                  <a href="#">Developer Tools</a>
+                  <a href="#">Integration Guides</a>
+                </div>
+              </li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign Up</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+      
+<div id="btn">
+    <div>
+        <img  src="home_banner.jpg">
+        <h1>Remove Image Background</h1>
+     </div>
+     <div id="cont">
+    <div class="container mt-4" id="container">
+        <div class="row mt-4">
+        <div class="col-md-12 card mt-4">
+        <form>
+        <div class="form-group">
+        <label for="fileInput">Select a File: </label> 
+        <input id="fileInput" class="form-control" 
+        type="file">
+        </div>
+        <input class="btn btn-primary m-1" 
+        type="button"  onclick="submitHandler()"
+        value="Upload">
+        </form>
+
+        <button class="btn btn-warning" 
+         onclick="downloadFile()">
+         Download
+        </button>   
+        
+     
+         </div>
+        </div>
+        </div>   
+        </div> 
+</div>    
+<div class="my-class">
+
+</div>  
+        <div class="gallery">
+            <button class="gallery-item"> People
+              <img src="images.jpeg" alt="Image 1"> 
+              
+              <div class="overlay">
+                <div class="overlay-content">
+        
+                </div>
+            </div>
+            </button> 
+        
+            <button class="gallery-item"> products
+              <img src="remove-chair-background.webp" alt="Image 2">
+              <div class="overlay">
+                <div class="overlay-content">
+        
+                </div>
+              </div>
+            </button>
+            <!-- Add more gallery items here --> 
+            <button class="gallery-item"> animals
+                <img src="6.jpg" alt="Image 2">
+                <div class="overlay">
+                  <div class="overlay-content">
+                   
+                  </div>
+                </div>
+              </button> 
+              <button class="gallery-item"> cars
+                <img src="Remove-the-car-and-people-background.webp" alt="Image 2">
+                <div class="overlay">
+                  <div class="overlay-content">
+        
+                  </div>
+                </div>
+              </button>
+          </div>
+        
+          <!-- Lightbox -->
+          <div class="lightbox">
+            <img class="lightbox-image" src="" alt="Lightbox Image">
+            <span class="close-button">&times;</span>
+          </div>       
+
+
+  <div class="hero">
+    <div>
+      <h2>Background Removal Made Easy</h2>
+      <p>Remove the background from your photos in just a few clicks.</p>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="feature">
+      <img src="feature1-icon.png" alt="Feature 1">
+      <h3>Simple and Intuitive</h3>
+      <p>Remove backgrounds with ease using our user-friendly interface.</p>
+    </div>
+
+    <div class="feature">
+      <img src="feature2-icon.png" alt="Feature 2">
+      <h3>High-Quality Results</h3>
+      <p>Get professional-grade results with our advanced background removal algorithm.</p>
+    </div>
+
+    <div class="feature">
+      <img src="feature3-icon.png" alt="Feature 3">
+      <h3>Fast Processing</h3>
+      <p>Remove backgrounds from your images quickly and efficiently.</p>
+    </div>
+  </div >
+   <div class="featur">
+    <h2>Get Updates</h2>
+    <p>Sign up for our mailing list and we will let you know when we release new features or updates.</p> 
+    </div>
+    <div class="search-container">
+      <input class="search-input" type="email" placeholder="Enter your Email...">
+      <button class="search-button">Subscribe</button>
+    </div>
+  
+    <footer class="foote">
+      <div>
+        <strong>Learn more</strong>
+        <br>
+        <a href="#">Magic Brush</a>
+        <a href="#">Individuals</a>
+        <a href="#">Photographers</a>
+        <a href="#">Marketing</a>
+        <a href="#">Developers</a>
+        <a href="#">Ecommerce</a>
+        <a href="#">Media</a>
+        <a href="#">Car Dealerships</a>
+        <a href="#">Enterprise</a>
+      </div>
+      <div>
+        <strong>Tools & API</strong>
+        <br>
+        <a href="#">API Documentation</a>
+        <a href="#">Integrations, tools & apps</a>
+        <a href="#">Photoshop Extension</a>
+        <a href="#">Windows / Mac / Linux</a>
+        <a href="#">Android App</a>
+        <a href="#">Design Templates</a>
+      </div>
+      <div>
+        <strong>Support</strong>
+        <br>
+        <a href="#">Help & FAQs</a>
+        <a href="#">Contact us</a>
+        <a href="#">Refunds</a>
+        <a href="#">Platform Status</a>
+      </div>
+      <div class="social-media" style="color: blue;">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+      </div>
+      <div>
+        <a href="#">Terms and Conditions</a> |
+        <a href="#">Terms of Service</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Cookie Policy</a> |
+        <a href="#">Imprint</a>
+      </div>
+    </footer>
+  
+
+  <div class="footer">
+    <p>&copy; 2023 Background Removal. All rights reserved.</p>
+  </div>
+        
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+    let imageURL;
+
+    function submitHandler(){
+        console.log("click");
+const fileInput = document.getElementById('fileInput');
+        console.log(fileInput.files);
+        const image = fileInput.files[0];
+  
+        // Multipart file
+        const formData = new FormData();
+        formData.append('image_file', image);
+        formData.append('size', 'auto');
+
+        const apiKey = 'PASTE_YOUR_API_KEY';
+
+        fetch('https://api.remove.bg/v1.0/removebg',{
+            method:'POST',
+            headers: {
+            'X-Api-Key': 'B6fNUAusm7RUvGaQur1Nhmu3',
+         },
+         body: formData
+        })
+        .then(function(reponse){
+                return reponse.blob()
+        })
+        .then(function(blob) {
+  console.log(blob);
+  const url = URL.createObjectURL(blob);
+  imageURL = url;
+  const img = document.createElement('img');
+  img.src = url;
+  const elements = document.querySelectorAll('.my-class'); // Replace 'my-class' with the desired class name
+  elements.forEach(element => {
+    element.appendChild(img.cloneNode(true));
+  });
+})
+.catch();
+    }
+
+   function downloadFile(){
+    var a = document.createElement('a'); //<a></a>
+        a.href = imageURL;
+        a.download = 'naciasv.png';
+        document.body.appendChild(a);
+
+        a.click();
+
+        document.body.removeChild(a);
+   }  
+
+   window.addEventListener('DOMContentLoaded', function() {
+      var dropdowns = document.getElementsByClassName('dropdown');
+      for (var i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].addEventListener('mouseover', function() {
+          this.querySelector('.dropdown-content').style.display = 'block';
+        });
+        dropdowns[i].addEventListener('mouseout', function() {
+          this.querySelector('.dropdown-content').style.display = 'none';
+        });
+      }
+    });    
+
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImage = document.querySelector('.lightbox-image');
+    const closeButton = document.querySelector('.close-button');
+
+    galleryItems.forEach((item) => {
+      item.addEventListener('click', () => {
+        const imageSrc = item.querySelector('img').src;
+        lightboxImage.src = imageSrc;
+        lightbox.style.display = 'flex';
+      });
+    });
+
+    closeButton.addEventListener('click', () => {
+      lightbox.style.display = 'none';
+    });
+</script>
+
+
+</body>
+</html>
